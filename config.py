@@ -1,7 +1,8 @@
 import os
 import json
+import pathlib
 
-with open("config.json") as config_file:
+with open(pathlib.Path.cwd()/'config.json') as config_file:
     config = json.load(config_file)
 
 

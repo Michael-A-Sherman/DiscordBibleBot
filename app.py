@@ -1,15 +1,6 @@
 import requests
 import discord
 from config import Config
-import random 
-
-
-# verse = 'Romans 8:32'
-# api_call = requests.get(f'https://bible-api.com/{verse}?translation=KJV')
-
-# verse = api_call.json()['text']
-
-# print(verse)
 
 TOKEN = Config.DISCORD_TOKEN
 GUILD = Config.DISCORD_GUILD
