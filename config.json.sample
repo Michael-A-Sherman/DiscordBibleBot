@@ -1,0 +1,4 @@
+{
+    "DISCORD_TOKEN": "Put Bot Token Here",
+    "DISCORD_GUILD": "Guild token here (not currently used)"
+}
